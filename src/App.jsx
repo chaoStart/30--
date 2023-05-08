@@ -9,6 +9,7 @@ import PIDPerformanceEvaluation from './pages/PID性能评估板块';
 import EnergySupply_demand from './pages/能源供需平衡';
 import ExtraApp2 from './pages/ExtraAPP2';
 import { Select, Tabs } from 'antd'
+// 马上还有1年就要工作了！！！
 const App = memo(() => {
   const { Option } = Select;
   let items = ['水煤浆', '一氧化碳']
@@ -39,7 +40,7 @@ const App = memo(() => {
               APC
             </div>
             <div id="item">
-                  <APCPerformanceMonitor></APCPerformanceMonitor>
+              <APCPerformanceMonitor></APCPerformanceMonitor>
             </div>
           </div>
           <div className="enengy">
