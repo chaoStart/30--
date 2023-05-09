@@ -9,7 +9,7 @@ import PIDPerformanceEvaluation from './pages/PID性能评估板块';
 import EnergySupply_demand from './pages/能源供需平衡';
 import ExtraApp2 from './pages/ExtraAPP2';
 import { Select, Tabs } from 'antd'
-// 马上还有1年就要工作了！！！继续加油
+// 马上还有1年就要工作了！！！继续加油,先把晓飞视频看完吧
 const App = memo(() => {
   const { Option } = Select;
   let items = ['水煤浆', '一氧化碳']
